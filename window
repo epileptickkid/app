@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>921</width>
+    <height>555</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QComboBox" name="pickhero">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>None</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Anti-Mage</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Shadowfiend</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Arc Warden</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Slark</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Pudge</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Marci</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ember Spirit</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Void Spirit</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Naga Siren</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="pickherotxt">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Выбор героя</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="pickrole">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>30</y>
+     <width>69</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Carry</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mid</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Offlane</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Support</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="pickherotxt_2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>10</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Позиция</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="konf">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>30</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ок</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="guid">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>60</y>
+     <width>171</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="guidpicture">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>62</y>
+     <width>171</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
