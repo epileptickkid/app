@@ -1,0 +1,25 @@
+from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QLabel, QFileDialog
+from PyQt5.QtGui import QPixmap
+
+class MainWindow(QMainWindow):
+    def __init__(self):
+        super().__init__()
+
+        self.setWindowTitle("My App")
+
+        self.button = QPushButton("Выбрать изображение", self)
+        self.button.clicked.connect(self.select_image)
+
+        self.label = QLabel(self)
+        self.label.setGeometry(10, 50, 400, 600)
+
+    def select_image(self):
+        pixmap = QPixmap("rapira.jpg")
+        self.label.setPixmap(pixmap)
+
+
+if __name__ == "__main__":
+    app = QApplication([])
+    window = MainWindow()
+    window.show()
+    app.exec_()
