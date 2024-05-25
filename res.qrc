@@ -1,0 +1,26 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons/dota_icon_project.png</file>
+    <file>icons/dota_icon_project.svg</file>
+    <file>icons/geroi_icon.png</file>
+    <file>icons/geroi_icon.svg</file>
+    <file>icons/history_24dp_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icons/radar_24dp_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>icons/radar_24dp_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icons/refresh_24dp_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>icons/role_icon.png</file>
+    <file>icons/role_icon.svg</file>
+    <file>icons/sensor_occupied_24dp_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>icons/sensor_occupied_24dp_FILL0_wght400_GRAD0_opsz24.svg</file>
+    <file>icons/dota_icon_project.png</file>
+    <file>icons/geroi_icon.png</file>
+    <file>icons/radar_24dp_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>icons/refresh_24dp_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>icons/role_icon.png</file>
+    <file>icons/sensor_occupied_24dp_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>icons/dota_icon_project.png</file>
+    <file>icons/geroi_icon.png</file>
+    <file>icons/refresh_24dp_FILL0_wght400_GRAD0_opsz24.png</file>
+    <file>icons/role_icon.png</file>
+  </qresource>
+</RCC>
